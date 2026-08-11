@@ -11,7 +11,7 @@ Source files generally use the corresponding Kattis problem ID as their filename
 Some problem directories may contain solutions written in more than one programming language.
 
 ## Languages
-The repository currently contains solutions written primarily in:
+The repository currently contains solutions written in:
 - C
 - Java
 
