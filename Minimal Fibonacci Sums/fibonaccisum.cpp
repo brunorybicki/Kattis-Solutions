@@ -1,8 +1,6 @@
 #include <iostream>
 #include <vector>
 
-using namespace std;
-
 long long fibonacci(int n) {
     long long a = 0, b = 1, c;
 
@@ -33,9 +31,9 @@ long long maximumFibonacci(long long n) {
 
 int main() {
     long long n;
-    cin >> n;
+    std::cin >> n;
 
-    vector<long long> result;
+    std::vector<long long> result;
 
     while (n > 0) {
         long long maximumFibonacciNumber = maximumFibonacci(n);
@@ -44,12 +42,12 @@ int main() {
     }
 
     for (int i = result.size() - 1; i >= 0; i--) {
-        cout << result[i];
+        std::cout << result[i];
 
         if (i > 0) {
-            cout << " ";
+            std::cout << " ";
         } else {
-            cout << "\n";
+            std::cout << "\n";
         }
     }
 
